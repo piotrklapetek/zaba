@@ -1,0 +1,73 @@
+body{
+	margin:0;
+	padding:0;
+}
+
+.baner{
+	background-color: rgb(241, 228, 175);
+	height: 200px;
+}
+.lewy{
+	background-color: rgb(254, 251, 218);
+	float: left;
+	clear: right;
+	height: 400px;
+	width: 20%;
+}
+
+.przycisk{
+	border: outset 4px brown;
+	background-color: white;
+	margin-left:250px;
+	margin-top:90px;
+	width:200px;
+	height:50px;
+	font-size:160%;
+	text-align:center;
+	float: left;
+}
+.przycisk:hover{
+	background-color: gray;
+	cursor: pointer;
+}
+a{
+	color: orange;
+	text-decoration: none;
+}
+a:visited{
+	color: DarkGreen;
+}
+
+footer{
+	background-color: orange;
+	text-align: center;
+	color: white;
+	font-size:30px;
+	padding: 20px;
+}
+.baner img{
+	height:200px;
+	width:200px;
+	float:left;
+}
+.prawy img{
+	height:400px;
+	width:400px;
+	margin-left:25%;
+}
+
+ul, ol{
+	padding-left:70px;
+	font-size: 40px;
+}
+ol{
+	color: red;
+}
+ul.jeden{
+	color: DarkGreen;
+	list-style: disc;
+}
+ul.dwa{
+	color: gray;
+	list-style: square;
+}
